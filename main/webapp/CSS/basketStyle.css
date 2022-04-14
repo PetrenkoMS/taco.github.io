@@ -1,0 +1,105 @@
+body {
+    background-image: url("../img/фон тако.png");
+    margin-top:50px;
+}
+
+@font-face {
+    font-family: logo;
+    src: url("../Fonts/logo.ttf");
+}
+
+.logotip::first-letter{
+    font-family: logo;
+    font-size:160%;
+    padding-right:7px;
+}
+.logotip{
+    color:black;
+    font-size:32px;
+    font-weight:bold;
+    background-color: #ED760E;
+    padding-right:10px;
+}
+
+.navi {
+    font-size: 20px;
+    background-color: #FFCF40;
+    margin-bottom: -15px;
+    margin-top: -10px;
+}
+
+.divider{
+    margin-top: 10px;
+    background-image: url("../img/razdel.png");
+    background-repeat: repeat-x;
+    height:30px;
+    width:100%;
+}
+
+
+/*------------------------*/
+
+#heading{
+    text-align:center;
+    padding: 50px 0px;
+    padding-bottom: 20px;
+    background: #ECEBE9;
+}
+
+#about p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#about div.row{
+    padding: 50px 0px;
+}
+
+.spisok {
+    width: 300px;
+    border-collapse: collapse;
+    margin-top:10px;
+    text-align:center;
+}
+
+.spisok td, th {
+    padding: 3px;
+    border: 1px solid black;
+}
+
+
+.new_inputs {
+    margin-top: 10px;
+    width: 40%;
+}
+
+.new_pinputs {
+    margin-top: 10px;
+    width: 20%;
+}
+
+.new_btn {
+    margin-left: 10px;
+    margin-top:10px;
+    background-image: url("../img/корзина.png");
+    background-repeat: no-repeat;
+    height:35px;
+    width:35px;
+}
+
+.payNow {
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+
+.payNowBtn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sum_pay {
+    margin-bottom: 5px;
+    text-align:center;
+}
